@@ -1,18 +1,3 @@
-/**
- * ██╗   ██╗ ██████╗ ██╗██████╗     ████████╗██╗   ██╗██████╗ ███████╗
- * ██║   ██║██╔═══██╗██║██╔══██╗    ╚══██╔══╝╚██╗ ██╔╝██╔══██╗██╔════╝
- * ██║   ██║██║   ██║██║██║  ██║       ██║    ╚████╔╝ ██████╔╝█████╗
- * ╚██╗ ██╔╝██║   ██║██║██║  ██║       ██║     ╚██╔╝  ██╔═══╝ ██╔══╝
- *  ╚████╔╝ ╚██████╔╝██║██████╔╝       ██║      ██║   ██║     ███████╗
- *   ╚═══╝   ╚═════╝ ╚═╝╚═════╝        ╚═╝      ╚═╝   ╚═╝     ╚══════╝
- *
- * A minimalist typing speed tester with a "Void Terminal" aesthetic.
- * Amber phosphor on deep matte black — like typing on a ghost machine.
- *
- * Stack: React, Tailwind CSS, Lucide React
- * Features: Time Mode, Sudden Death Mode, Live WPM Graph, Results Dashboard
- */
-
 import { useState, useEffect, useRef, useCallback, useMemo } from "react";
 import { RefreshCw, Zap, Clock, Target, Activity, AlertTriangle } from "lucide-react";
 
